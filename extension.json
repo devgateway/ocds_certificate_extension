@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Certificates"
+  },
+  "description": {
+    "en": "This extension will allow DNV to show more precise information about the work certificates in a contracting process"
+  },
+  "documentationUrl": {
+    "en": "https://github.com/devgateway/ocds_certificate_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}
