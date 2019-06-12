@@ -16,8 +16,12 @@ The "certificates" extension will be a field inside contracts.implementation, wh
 		"_id" : "0002084/2016",
 		"status" : "EMITIDO",
 		"date" : "2015-12-01T11:00:00.000Z",
-		"value" : {
+		"certificateAmount" : {
 			"amount" : 1000,
+			"currency" : "ARS"
+		},
+		"totalAmount" : {
+			"amount" : 2000,
 			"currency" : "ARS"
 		}
 	}, 
@@ -25,8 +29,12 @@ The "certificates" extension will be a field inside contracts.implementation, wh
 		"_id" : "0002447/2016",
 		"status" : "PAGADO",
 		"date" : "2016-01-01T11:00:00.000Z",
-		"value" : {
+		"certificateAmount" : {
 			"amount" : 2000,
+			"currency" : "ARS"
+		},
+		"totalAmount" : {
+			"amount" : 8000,
 			"currency" : "ARS"
 		}
 	}

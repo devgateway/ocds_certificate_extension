@@ -360,9 +360,17 @@
 		  ],
 		  "format": "date-time"
         },
-        "value": {
-          "title": "Value",
-          "description": "The total value of this certificate.",
+		"certificateAmount": {
+          "title": "Certificate Amount",
+          "description": "The current amount of the certification.",
+          "type": "object",
+          "items": {
+            "$ref": "#/definitions/Value"
+          }
+        },
+		"totalAmount": {
+          "title": "Total Amount",
+          "description": "The total amount of the certification.",
           "type": "object",
           "items": {
             "$ref": "#/definitions/Value"
